@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ':username' => $username,
         ':password' => $hashed_password
     ]);
-    header ('location: /project/public/view/login.php');
+    header ('location: /project/public/views/students/login.php');
     exit();
     } 
 }
