@@ -1,0 +1,11 @@
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+
+  # Set your base folder (adjust if your project is inside another folder)
+  RewriteBase /project/public
+
+  # Redirect all requests to index.php
+  RewriteCond %{REQUEST_FILENAME} !-f
+  RewriteCond %{REQUEST_FILENAME} !-d
+  RewriteRule ^(.+)$ index.php?url=$1 [QSA,L]
+</IfModule>
