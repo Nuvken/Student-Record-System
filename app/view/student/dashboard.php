@@ -16,6 +16,9 @@
             </label>
         </div>
         <div class="sidebar_menu">
+            <div class="logo">
+                <a href="">Student Management System</a>
+            </div>
             <div class="btn_two">
                 <label for="check">
                     <i class="fas fa-times"></i>
