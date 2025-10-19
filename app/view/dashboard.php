@@ -22,14 +22,14 @@
             </label>
         </div>
         <ul>
-            <li><a href=""><i class="fa-solid fa-user-graduate"></i>Students</a></li>
-            <li><a href=""><i class="fa-solid fa-book"></i>Courses</a></li>
-            <li><a href=""><i class="fa-solid fa-clipboard-list"></i>Grades</a></li>
-            <li><a href=""><i class="fa-solid fa-chalkboard-user"></i>Teachers</a></li>
-            <li><a href=""><i class="fa-solid fa-calendar-check"></i>Attendance</a></li>
-            <li><a href=""><i class="fa-solid fa-bullhorn"></i>Annnouncement</a></li>
-            <li><a href=""><i class="fa-solid fa-gear"></i>Settings</a></li>
-            <li><a href=""><i class="fa-solid fa-right-from-bracket"></i>Logout</a></li>
+            <li><a href="app/view/student.php"><i class="fa-solid fa-user-graduate"></i>Students</a></li>
+            <li><a href="app/view/courses.php"><i class="fa-solid fa-book"></i>Courses</a></li>
+            <li><a href="app/view/grade.php"><i class="fa-solid fa-clipboard-list"></i>Grades</a></li>
+            <li><a href="app/view/teacher.php"><i class="fa-solid fa-chalkboard-user"></i>Teachers</a></li>
+            <li><a href="app/view/attendance.php"><i class="fa-solid fa-calendar-check"></i>Attendance</a></li>
+            <li><a href="app/view/announcement.php"><i class="fa-solid fa-bullhorn"></i>Annnouncement</a></li>
+            <li><a href="app/view/settings.php"><i class="fa-solid fa-gear"></i>Settings</a></li>
+            <li><a href="app/view/logout.php"><i class="fa-solid fa-right-from-bracket"></i>Logout</a></li>
         </ul>
     </div>
 
