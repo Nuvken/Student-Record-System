@@ -8,7 +8,6 @@
   <title>Dashboard</title>
 </head>
 <body>
-    <!-- Checkbox must be outside both sidebar and main_box -->
     <input type="checkbox" id="check">
 
     <!-- Sidebar -->
