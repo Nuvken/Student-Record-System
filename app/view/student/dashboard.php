@@ -8,34 +8,38 @@
   <title>Dashboard</title>
 </head>
 <body>
+    <!-- Checkbox must be outside both sidebar and main_box -->
+    <input type="checkbox" id="check">
+
+    <!-- Sidebar -->
+    <div class="sidebar_menu">
+        <div class="logo">
+            <a href="">Student Management System</a>
+        </div>
+        <div class="btn_two">
+            <label for="check">
+                <i class="fas fa-times"></i>
+            </label>
+        </div>
+        <ul>
+            <li><a href=""><i class="fa-solid fa-user-graduate"></i>Students</a></li>
+            <li><a href=""><i class="fa-solid fa-book"></i>Courses</a></li>
+            <li><a href=""><i class="fa-solid fa-clipboard-list"></i>Grades</a></li>
+            <li><a href=""><i class="fa-solid fa-chalkboard-user"></i>Teachers</a></li>
+            <li><a href=""><i class="fa-solid fa-calendar-check"></i>Attendance</a></li>
+            <li><a href=""><i class="fa-solid fa-bullhorn"></i>Annnouncement</a></li>
+            <li><a href=""><i class="fa-solid fa-gear"></i>Settings</a></li>
+            <li><a href=""><i class="fa-solid fa-right-from-bracket"></i>Logout</a></li>
+        </ul>
+    </div>
+
     <div class="main_box">
-        <input type="checkbox" id="check">
         <div class="btn_one">
             <label for="check">
                 <i class="fas fa-bars"></i>
             </label>
         </div>
-        <div class="sidebar_menu">
-            <div class="logo">
-                <a href="">Student Management System</a>
-            </div>
-            <div class="btn_two">
-                <label for="check">
-                    <i class="fas fa-times"></i>
-                </label>
-            </div>
-            <ul>
-                <li><a href=""><i class="fa-solid fa-gauge"></i>Dashboard</a></li>
-                <li><a href=""><i class="fa-solid fa-user-graduate"></i>Students</a></li>
-                <li><a href=""><i class="fa-solid fa-book"></i>Courses</a></li>
-                <li><a href=""><i class="fa-solid fa-clipboard-list"></i>Grades</a></li>
-                <li><a href=""><i class="fa-solid fa-chalkboard-user"></i>Teachers</a></li>
-                <li><a href=""><i class="fa-solid fa-calendar-check"></i>Attendance</a></li>
-                <li><a href=""><i class="fa-solid fa-bullhorn"></i>Annnouncement</a></li>
-                <li><a href=""><i class="fa-solid fa-gear"></i>Settings</a></li>
-                <li><a href=""><i class="fa-solid fa-right-from-bracket"></i>Logout</a></li>
-            </ul>
-        </div>
+
         <div class="social_media">
             <a href=""><i class="fab fa-facebook-f"></i></a>
             <a href=""><i class="fab fa-twitter"></i></a>
