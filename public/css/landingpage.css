@@ -8,7 +8,13 @@ html, body {
 body {
     font-family: Open Sans, system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Helvetica Neue, sans-serif;
     overflow-y: auto;
+    position: relative;
     background-color: black;
+    background-image: url('/project/public/images/sms.jpg');
+    background-size: cover;
+    background-position: center bottom -15px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
 }
 
 .header {
@@ -19,21 +25,29 @@ body {
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     background: rgba(10, 0, 30, 0.4);
     backdrop-filter: blur(10px);
+    position: relative;
+    z-index: 10;
 }
 
-.logo {
+.logo a {
     display: flex;
     align-items: center;
     gap: 8px;
     font-weight: 600;
     font-size: 18px;
     color: white;
+    text-decoration: none;
 }
 
 .nav-links {
     display: flex;
-    gap: 32px;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    gap: 30px;
+    border: 3px solid rgba(255, 255, 255, 0.1);
+    border-radius: 30px;
+    padding: 10px;
+    padding-left: 22px;
+    padding-right: 22px;
+    align-items: center;
 }
 
 .nav-links a {
@@ -42,9 +56,6 @@ body {
     font-size: 15px;
     transition: color 0.3s;
     font-weight: 500;
-    padding: 8px 14px;
-    border-radius: 30px;
-    transition: background 0.3s, color 0.3s;
 }
 
 .nav-links a:hover {
@@ -62,14 +73,67 @@ body {
 
 .login {
     color: rgba(255, 255, 255, 0.8);
+    font-weight: 600;
 }
 
 .join {
-    background-color: #4f46e5;
+    background-color: #1e73be;
     color: white;
-    box-shadow: 0 0 10px #4f46e5;
+    font-weight: 600;
 }
 
-.join:hover {
-    background-color: #6d5dfc;
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 80px 10%;
+    color: white;
+}
+
+.hero-content {
+    max-width: 480px;
+}
+
+.hero-content h1 {
+    font-size: 2.8rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.hero-content p {
+    font-size: 1.1rem;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    opacity: 0.9;
+}
+
+.hero-buttons {
+    display: flex;
+    gap: 15px;
+}
+
+.btn {
+    padding: 12px 28px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: all 0.3 ease;
+}
+
+.btn.primary {
+    background-color: #fff;
+    color: #1e73be;
+}
+
+.btn.btn.primary:hover {
+    background-color: #f2f2f2;
+}
+
+.btn.secondary {
+    border: 2px solid #fff;
+    color: white;
+}
+
+.btn.secondary:hover {
+    background-color: #fff;
+    color: #1e73be;
 }
